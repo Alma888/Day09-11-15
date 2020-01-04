@@ -8,8 +8,8 @@
    System.out.println(y);
  涉及的知识点：toUpperCase()和toLowerCase()
              String str;
-             str . toUpperCase(); //把输入的字符串中的大写字母全部变成小写字符
-             str . toLowerCase(); //把输入字符串中的小写字母全部变成大写字符。
+             str . toUpperCase(); //把输入的字符串中的小写字母全部变成大写字母，其他非字母的除外。
+             str . toLowerCase(); //把输入字符串中的大写字母全部变成小写字母，其他非字母的除外。
              
 2、关于Java堆的说法：
  所有类的实例和数组都是在堆上分配内存的
